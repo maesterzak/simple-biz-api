@@ -5,7 +5,7 @@
 ### **Clone Project**
 From your terminal execute the command below to clone the project into your local machine
 ```bash
-    git clone 
+    git clone https://github.com/maesterzak/simple-biz-api.git
 ```
 
 ### **Install Dependencies**
@@ -89,9 +89,9 @@ The Api will return six (6) error code types when requests fail:
 http://127.0.0.1:8000/register/
 ```
 
-- **Sample request body**:
+- **Request body**:
 ``` json
-    {"first_name": "andrew", "last_name": "mike", "username":"maesterzak","password":"mike@@1aa"}
+    {"first_name": string, "last_name": string, "username":"string,"password":string}
 ```
 
  - **Sample response**
@@ -162,7 +162,7 @@ http://127.0.0.1:8000/register/
 - **Request body**
 ``` json
 {
-  "first_name": "andrew",
+  "first_name": string,
 }
   ```
 
@@ -186,9 +186,9 @@ http://127.0.0.1:8000/register/
 - **Request body**
 ``` json
     {
-        'user': 1,
-        'transaction_id': 'randomrandoom@@',
-        'total': 2000
+        'user': integer,
+        'transaction_id': string,
+        'total': string
     }
 ```
     
